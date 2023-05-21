@@ -1,0 +1,1066 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "nunito";
+  src: local("nunito"), url("../podklady-web/font/Nunito/nunito.ttf") format("truetype");
+}
+@font-face {
+  font-family: "nunito-italic";
+  src: local("nunito-italic"), url("../podklady-web/font/Nunito/nunito-italic.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+spain {
+  color: #b70058;
+}
+
+.menu_list_label {
+  display: none;
+}
+
+h1,
+h2,
+h3 {
+  color: #0068ad;
+  font-family: "nunito";
+}
+
+.header__title {
+  color: #b70058;
+  font-family: "nunito";
+  font-weight: 800;
+  text-align: center;
+  margin: 1rem;
+}
+
+.nav-list {
+  background-repeat: no-repeat;
+  position: absolute;
+  background-color: white;
+  color: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 80px;
+}
+
+.img_elipsa {
+  width: 15rem;
+  position: relative;
+}
+
+.img_logo {
+  width: 13rem;
+  margin: 10px;
+  position: absolute;
+}
+
+.foto_elipsa {
+  position: absolute;
+  width: 100%;
+}
+
+.menu_list {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+a {
+  font-family: "nunito";
+  font-weight: bold;
+  text-decoration: none;
+  margin: 1rem;
+  color: #0068ad;
+  font-family: url(podklady-web/font/Nunito/Nunito-Italic-VariableFont_wght.ttf);
+}
+
+.line_first_blok {
+  background-color: grey;
+  height: 1.5rem;
+  width: 1px;
+}
+
+.block__first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.block__firtst--one {
+  height: 80vh;
+  background-image: url(../podklady-web/foto/slider.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image__slider {
+  top: 5rem;
+  right: 2rem;
+}
+
+.slider__srdce {
+  width: 30rem;
+}
+
+.article_predmluva {
+  position: absolute;
+  margin: 5px;
+  padding: 10px;
+}
+
+.article__information {
+  border: 1px solid rgba(252, 252, 252, 0.767);
+  border-radius: 10px;
+  padding: 2rem;
+  width: 32rem;
+  height: 18rem;
+  position: relative;
+  bottom: 0;
+  left: 4rem;
+  background-color: rgba(242, 244, 246, 0.514);
+}
+
+.article__button {
+  border: 1px solid rgba(247, 243, 243, 0.229);
+  padding: 0.5rem;
+  position: absolute;
+  width: 6rem;
+  bottom: 1rem;
+  left: 2.5rem;
+  border-radius: 6px;
+  background-color: rgb(31, 128, 225);
+  color: aliceblue;
+}
+
+.boll {
+  display: flex;
+  flex-direction: row;
+  margin-top: 13rem;
+}
+
+.boll_pink {
+  width: 3rem;
+  height: 3rem;
+  background-color: #0068ad;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.boll_blue {
+  width: 3rem;
+  height: 3em;
+  background-color: #b70058;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.heading_ergoterapie {
+  text-align: left;
+  font-size: "nunito";
+  font-weight: bold;
+  color: #0068ad;
+}
+
+.line_block_one {
+  width: 0.1rem;
+  height: 20rem;
+  margin-inline: 1rem;
+  background-color: rgb(207, 205, 205);
+}
+
+.rozdeleni {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 10px;
+  text-align: center;
+}
+
+.block__first--thr {
+  background-image: url(../podklady-web/HP_galerie_pozadi.svg);
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.cil_ergo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.acticle_ergoterapie-second,
+.article_ergoterapie-two {
+  margin: 10px;
+  padding: 1rem;
+  font-size: 0.9rem;
+  width: 36rem;
+  font-family: "nunito";
+}
+
+.btn__article {
+  width: 7rem;
+  height: 2rem;
+  border-radius: 10px;
+  color: white;
+  background-color: #0068ad;
+  margin-bottom: 2rem;
+  margin-left: 1.4rem;
+  padding: 5px;
+}
+
+.block__firts_four {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.img_zavislost_zivot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.block__second {
+  background-image: url(../podklady-web/foto/istockphoto-800406256-1024x1024.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.block_second_color {
+  background: #b70058;
+  opacity: 0.9;
+}
+
+.cil_ergo {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.main_ergoterapie {
+  font-size: 24px;
+  text-align: center;
+  color: aliceblue;
+  margin: 1rem;
+  font-family: "nunito";
+  font-weight: 700;
+}
+
+.article_ergoterapie {
+  text-align: center;
+  color: aliceblue;
+  padding: 5px;
+  margin: 5px;
+  font-family: "nunito";
+  font-size: 12px;
+}
+
+.block__second-second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60vw;
+  height: 25vh;
+  margin: auto;
+}
+
+.mickova_facilitace,
+.bazalni_stimulace,
+.kineziologie,
+.bobath_koncept,
+.nrx_system,
+.techniky,
+.dlahovani_ruky,
+.pacienti_neurologie,
+.pacienti_ortopedie,
+.pacienti_dusevni,
+.deti_vyvoj,
+.osoby_mobilita,
+.pacienti_trauma {
+  margin: 0.5rem;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.techniky {
+  margin: 0rem;
+}
+
+.img_techniky {
+  width: 3.5rem;
+}
+
+h4 {
+  margin: 0.5rem;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.main_second_ergoterapie {
+  color: white;
+  text-align: center;
+  font-family: "nunito";
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.block_second_four {
+  padding: 10px;
+  text-align: center;
+  margin-inline: 15rem;
+}
+
+.article_domaci {
+  text-align: center;
+  color: aliceblue;
+  font-family: "nunito";
+  font-size: 12px;
+  padding: 1rem;
+}
+
+.block_second_three {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60vw;
+  height: 30vh;
+  margin: auto;
+}
+
+.line_block_second {
+  background-color: rgba(193, 191, 191, 0.649);
+  width: 0.1rem;
+  height: 4rem;
+  margin-top: 5rem;
+}
+
+.block__third {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../podklady-web/HP_rehabilitace_pozadi.svg);
+}
+
+.article_rehabilitace,
+.article__pink {
+  text-align: center;
+  margin-inline: 10rem;
+  margin-block: 1rem;
+  font-family: "nunito";
+  font-size: 12px;
+  margin-inline: 16rem;
+}
+
+.h2_rehabilitace {
+  text-align: center;
+  font-family: "nunito";
+  font-size: 22px;
+  color: #b70058;
+  margin-top: 2rem;
+  font-weight: 800;
+}
+
+.h3_rehabilitace {
+  text-align: center;
+  margin-top: 2rem;
+  color: #0068ad;
+  font-family: "nunito";
+  font-size: 14px;
+}
+
+.block__third-third {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.img_pink {
+  stroke: #b70058;
+  margin: 1rem;
+}
+
+.line_third {
+  background-color: grey;
+  width: 0.1rem;
+  height: 6rem;
+  margin: 10px;
+}
+
+.block__fourth-one {
+  background-image: url(../podklady-web/HP_o_me_pozadi.svg);
+  width: 50%;
+  margin-inline: 8rem;
+}
+
+.o-mne {
+  text-align: left;
+  color: #b70058;
+  margin-left: 10rem;
+  font-family: "nunito";
+  font-size: 28px;
+}
+
+.article_me {
+  text-align: left;
+  margin-left: 10rem;
+  margin-block: 0.5rem;
+  font-family: "nunito";
+  font-size: 12px;
+  margin-bottom: 2rem;
+}
+
+.main_me {
+  margin-left: 10rem;
+  text-align: left;
+  font-family: "nunito";
+  font-size: 12px;
+}
+
+.btn_btn-information {
+  margin-left: 10rem;
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #0068ad;
+  color: white;
+  padding: 5px;
+  margin-top: 1rem;
+  font-family: "nunito";
+  font-size: 12px;
+}
+
+.block__fourth-two {
+  background-image: url(../podklady-web/HP_o_me_pozadi.svg);
+}
+
+.block__fourth {
+  width: 100%;
+  background-color: rgb(248, 245, 239);
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.line_block--fourth {
+  width: 0.1rem;
+  height: 18rem;
+  background-color: rgb(222, 217, 217);
+  margin-inline: 2rem;
+  margin-top: 3rem;
+}
+
+.IMG_regtangle {
+  width: 350px;
+  height: 300px;
+  margin-block: 5rem;
+  margin-right: 10rem;
+  box-shadow: -8px 8px rgb(90, 147, 232), 8px -8px pink;
+  border-radius: 10px;
+}
+
+.obrazky {
+  margin-block: 5rem;
+  margin-inline: 15rem;
+  width: 40%;
+  display: grid;
+  gap: 10px;
+  grid-template-areas: ". a b d ." "xl a b d xr" ". a b d .";
+}
+
+.sipka_vlevo {
+  grid-area: xl;
+}
+
+.obrazky_jedna {
+  grid-area: a;
+}
+
+.IMG_rehabilitacion-one {
+  border-radius: 10px;
+  height: 380px;
+}
+
+.IMG_rehabilitacion-two,
+.IMG_rehabilitacion_three {
+  width: 280px;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+.IMG_rehabilitacion_four {
+  width: 300px;
+  height: 380px;
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: 3px 3px blue, 3px 3px pink;
+}
+
+.obrazky_dva {
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  grid-area: b;
+}
+
+.obrazky_tri {
+  grid-area: d;
+}
+
+.sipka_vpravo {
+  grid-area: xr;
+}
+
+.h2_kontaktni_formular {
+  grid-area: a;
+  color: #b70058;
+  font-family: "nunito";
+  font-weight: 700;
+  text-align: center;
+}
+
+.form_form-left {
+  grid-area: b;
+  display: flex;
+  flex-direction: column;
+}
+
+.form_form--right {
+  grid-area: c;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-medssage {
+  grid-area: f;
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  color: blue;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid blue;
+  background-color: white;
+}
+
+.btn_btn_form {
+  width: 6rem;
+  padding: 5px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #0068ad;
+  color: white;
+}
+
+.block_seventh {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Nunito", sans-serif;
+}
+
+*,
+*::before *::after {
+  margin: 0;
+  padding: 0;
+}
+
+.ergotherapy-intro {
+  background-image: url(../podklady-web/foto/slider.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  height: 38rem;
+}
+
+.ergotherapy-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.ergotherapy-text {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  background: rgba(240, 248, 255, 0.7);
+  border-radius: 10px;
+  padding: 0.5rem 1.5rem;
+  margin: 2.5rem;
+}
+
+.ergotherapy-text h2 {
+  color: rgb(0, 98, 159);
+  font-size: 2.6rem;
+  font-weight: 900;
+  margin: 0;
+  width: fit-content;
+  line-height: 1.77;
+}
+
+.button {
+  width: fit-content;
+  background-color: rgb(30, 110, 179);
+  padding: 0.4rem 0.7rem;
+  color: white;
+  border-radius: 10px;
+  margin: 1.2rem 0;
+  border: none;
+}
+
+.ergotherapy-image {
+  background-image: url(../podklady-web/slider_srdce.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 35%;
+  height: 80%;
+  margin: 2rem;
+}
+
+/* FORMULÁŘ */
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  position: relative;
+}
+
+.form-container::before {
+  background-image: url(../podklady-web/foto/istockphoto-1289188822-1024x1024.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  opacity: 0.08;
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: rgba(210, 234, 255, 0.5);
+  width: 50vw;
+  overflow: auto;
+  margin: 3.5rem;
+  align-items: center;
+}
+
+.form-contact > button {
+  width: fit-content;
+  padding: 0.5rem 2rem;
+  margin: 0;
+  position: relative;
+  bottom: 4.5rem;
+}
+
+.main_contact {
+  text-align: center;
+  color: rgb(168, 28, 92);
+  font-weight: 900;
+  font-size: 1.7rem;
+  margin: 0;
+  margin-top: 1.5rem;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem 6.9rem 2rem;
+}
+
+.form-container form > input {
+  margin: 0.7rem;
+  padding: 0 0.7rem;
+  width: 40%;
+  flex-grow: 1;
+  border-radius: 6.5px;
+  outline: none;
+  border: 1.5px solid rgb(136, 136, 208);
+  background: rgba(255, 255, 255, 0.5);
+  height: 1.75rem;
+}
+
+.form-container form > input::placeholder {
+  text-align: center;
+  color: rgb(45, 107, 159);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.form-container form > input::placeholder:focus {
+  color: transparent;
+}
+
+.flex-grow {
+  display: flex;
+  flex-grow: 2;
+}
+
+/* FOOTER */
+footer {
+  /* background: rgba(160,25,91,255); */
+  width: 100%;
+}
+
+.footer-info {
+  width: 25%;
+  margin-left: auto;
+}
+
+.dividing-line {
+  width: 2px;
+  margin: 1rem;
+}
+
+.footer-main-info {
+  width: 18%;
+}
+
+.footer-main-info ul {
+  padding: 0;
+}
+
+.footer-main-info ul > li {
+  list-style-type: none;
+}
+
+.find-us-detail img {
+  margin: 0 1rem;
+}
+
+.find-us {
+  width: 25%;
+  margin-right: auto;
+}
+
+.find-us-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info::before {
+  background-image: url(../podklady-web/foto/istockphoto-800406256-1024x1024.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  opacity: 0.08;
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.footer-background {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding-bottom: 1rem;
+  background: rgb(160, 25, 91);
+  font-size: 0.8rem;
+}
+
+.footer-contact p {
+  width: 78%;
+  margin: 0;
+}
+
+.footer-logo {
+  opacity: 0.4;
+  height: 3rem;
+}
+
+.footer-arrow {
+  height: 4rem;
+}
+
+.find-us-pics img {
+  height: 1.4rem;
+  margin: 0 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu_list {
+    display: none;
+  }
+  .menu_list_label {
+    flex-direction: column;
+    color: #0068ad;
+    width: 6rem;
+    right: 2rem;
+    background-color: #0068ad;
+  }
+  a {
+    color: white;
+    padding: 5px;
+  }
+  .menu__toggler {
+    color: black;
+    display: block;
+    position: absolute;
+    left: 20rem;
+    top: 1rem;
+  }
+  .block__firtst--one {
+    height: 40rem;
+    background-image: url(../podklady-web/foto/slider.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .slider__srdce {
+    display: none;
+  }
+  .boll {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25rem;
+  }
+  .boll_pink {
+    width: 4rem;
+    height: 4rem;
+    background-color: #0068ad;
+    border-radius: 50%;
+    margin: 1rem;
+  }
+  .boll_blue {
+    width: 4rem;
+    height: 4rem;
+    background-color: #b70058;
+    border-radius: 50%;
+    margin: 1rem;
+  }
+  .article__information {
+    border: 1px solid rgba(252, 252, 252, 0.767);
+    border-radius: 10px;
+    padding: 2rem;
+    width: 20rem;
+    height: 30rem;
+    margin-top: 2rem;
+    position: relative;
+    bottom: 0;
+    left: 0.5rem;
+    background-color: rgba(242, 244, 246, 0.514);
+  }
+  .rozdeleni {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .acticle_ergoterapie-second,
+  .article_ergoterapie-two {
+    margin: 10px;
+    padding: 1rem;
+    font-size: 0.9rem;
+    width: 18rem;
+    margin-inline: 4rem;
+    word-wrap: break-word;
+    font-family: "nunito";
+    text-align: center;
+  }
+  .btn__article {
+    width: 7rem;
+    height: 2rem;
+    border-radius: 10px;
+    color: white;
+    background-color: #0068ad;
+    margin-bottom: 2rem;
+    margin-left: 9rem;
+    padding: 5px;
+  }
+  .line_block_one {
+    display: none;
+  }
+  .block__firts_four {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 8rem;
+    word-wrap: break-word;
+  }
+  .nadpis_cil {
+    text-align: center;
+  }
+  .block__second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem;
+  }
+  .line_block_second {
+    display: none;
+  }
+  .block__second-second,
+  .block_second_three {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 2rem;
+  }
+  .article_domaci {
+    text-align: center;
+    color: aliceblue;
+    font-family: "nunito";
+    font-size: 12px;
+    padding: 1rem;
+  }
+  .block_second_four {
+    position: relative;
+    text-align: center;
+    margin-inline: 0;
+    margin: 2rem;
+    height: 30rem;
+    bottom: -10rem;
+  }
+  .article_domaci {
+    width: 18rem;
+  }
+  .h3_rehabilitace {
+    width: 12rem;
+    text-align: center;
+    margin-left: 7rem;
+    font-size: 16px;
+  }
+  .article_rehabilitace {
+    width: 15rem;
+    text-align: center;
+    margin-left: 6rem;
+  }
+  .article__pink {
+    width: 15rem;
+    text-align: center;
+    margin-left: 6rem;
+  }
+  .line_third {
+    display: none;
+  }
+  .block__third-third {
+    display: flex;
+    flex-direction: column;
+    background-color: #b70058;
+  }
+  .block__fourth {
+    width: 100%;
+    background-color: rgb(248, 245, 239);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .block__fourth-one {
+    width: 100%;
+    height: 30rem;
+  }
+  .line_block--fourth {
+    display: none;
+  }
+  .o-mne {
+    width: 8rem;
+    margin-inline: 8rem;
+    margin-top: 2rem;
+  }
+  .main_me {
+    margin-left: 6rem;
+  }
+  .article_me {
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    width: 18rem;
+  }
+  .btn_btn-information {
+    margin-left: 8rem;
+  }
+  .IMG_regtangle {
+    margin-right: 0;
+  }
+  .obrazky {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2.5rem;
+  }
+  .sipka_vlevo {
+    display: none;
+  }
+  .sipka_vpravo {
+    transform: rotateX(-60deg);
+  }
+  .main_galerie {
+    text-align: center;
+    margin: 1rem;
+    color: #b70058;
+    font-size: 32px;
+    font-family: "nunito";
+  }
+  .form-contact {
+    width: 100%;
+  }
+  .form-container {
+    width: 100vw;
+  }
+  .footer_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=style.css.map */
