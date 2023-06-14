@@ -469,7 +469,12 @@ h4 {
   box-shadow: -8px 8px rgb(90, 147, 232), 8px -8px pink;
   border-radius: 10px;
 }
-
+.main_galerie {
+  text-align: center;
+  font-size: 36px;
+  color: $colort-third;
+  margin-top: 2rem;
+}
 .obrazky {
   margin-block: 5rem;
   margin-inline: 15rem;
@@ -931,7 +936,7 @@ footer {
     display: none;
   }
   .block__firts_four {
-    display: flex;
+    display: grid;
     flex-direction: column;
     gap: 2rem;
     margin-left: 8rem;
